@@ -9,7 +9,7 @@ Simple and Fluent API style Phone number validator, can be extended with many ma
                                   .WithMask("+2136########")
                                 .IsValid();
 ```
-Or by using the builting extensions for algerian phone numbers operators (Djezzy, Mobiliss and Ooredoo)
+Or by using the built-in extensions for algerian phone numbers operators (Djezzy, Mobiliss and Ooredoo)
 
 ```CSharp
 var isValidDjezzyNumber = new PhoneNumberValidator()
